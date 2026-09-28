@@ -1,0 +1,263 @@
+
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    font-family: 'pretendard', sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+ul, li{
+    list-style: none;
+    
+}
+a{
+    text-decoration: none;
+    color: inherit;
+
+}
+.wrap{
+    width: 1200px;
+    margin: 0 auto;
+    /* background-color: blanchedalmond; */
+}
+.section{
+    /* background-color: aquamarine; */
+    padding: 120px 0;
+}
+.title-sm{
+    font-size: 14px;
+    font-weight: 600px;
+    color: #666;
+    margin-bottom: 12px;
+
+}
+.title-lg{
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 1.4;
+    letter-spacing: -0.5px;
+
+}
+.header{
+    height: 80px;
+    border-bottom: 1px solid #222;
+    background-color: #fff;
+}
+.header .wrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+
+}
+.header .logo{
+    font-size: 20px;
+    font-weight: 800;
+
+}
+.header .nav{
+    display: flex; 
+    gap: 40px;
+}
+.header .nav a{
+    font-size: 15px;
+    font-weight: 600;
+    transition: 0.2s;
+}
+.header .nav a:hover{
+    color: aqua;
+}
+/* Mail hero */
+.hero{
+    background-color: azure;
+    background-image: url('../images/h2.jpg');
+    object-fit: cover;
+    padding: 180px 0;
+
+}
+.hero h2{
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 1.35;
+    letter-spacing: -1px;
+    color: #fff;
+}
+.about .title-lg{
+    margin-bottom: 60px;
+}
+.about .about-content{
+    display: flex;
+    gap: 80px;
+}
+.about .about-content > div{
+    flex: 1;
+
+
+}
+.about .img-box{
+    height: 520px;
+    background-color: crimson;
+    background-image: url('../images/h6.jpg');
+    object-fit: cover;
+}
+.about .txt-box .num{
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 8px;
+
+}
+.about .txt-box h3{
+    font-size: 26px;
+    font-weight: 700;
+    margin-bottom: 16px;
+
+}
+.about .txt-box p{
+    font-size: 16px;
+    color: #555;
+    max-width: 440px;
+
+}
+/* Section2 */
+.business-header {
+    padding-bottom: 0;
+    text-align: center;
+
+}
+.business-header .title-lg{
+    margin-bottom: 60px;
+}
+.business-list{
+    background-color: #eee;
+     /* background-image: url('../images/h7.jpg');
+      object-fit: cover; */
+}
+}
+.business-list .wrap{
+    display: flex;
+    gap: 80px;
+    align-items: center;
+}
+.business-list .wrap > div{
+    flex: 1;
+
+}
+.business-list .list-title h3{
+    font-style: 26px;
+    font-weight: 700;
+    line-height: 1.4;
+
+}
+.business-list .list-content ul{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+.business-list .list-content li{
+    font-style: 17px;
+    color: #333;
+    padding-bottom: 16px;
+    border-bottom: 1px solid #bbb;
+}
+/* 섹션4 */
+.sustain .title-lg{
+    margin-bottom: 60px;
+}
+.sustain .card-list{
+    display: flex;
+    gap: 20px;
+}
+.sustain .card{
+    flex: 1;
+}
+.sustain .card .img-box1{
+    height: 320px;
+    background-color: #666;
+     background-image: url('../images/h8.jpg');
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+.sustain .card h4{
+    font-size: 18px;
+    font-weight: 700;
+   margin-bottom: 10px;
+
+}
+.sustain .card p{
+    color: #666;
+    font-size: 14px;
+    word-break: keep-all;
+}
+/* 섹션5 */
+.banner{
+    background-color: #e5e5e5;
+    
+    }
+
+.banner .wrap{
+        display: flex;
+        gap: 80px;
+        align-items: center;
+}
+.banner .wrap div{
+    flex: 1;
+}
+.banner .banner-title h2{
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 1.4;
+}
+.banner .banner-links{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+}
+.banner .link-item{
+    background-color: #fff;
+    padding: 32px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.footer{
+    background-color: #222;
+    color: #fff;
+    padding: 60px 0;
+}
+.footer h2{
+    font-style: 20px;
+    font-weight: 800;
+}
+.sustain .card .img-box2{
+    height: 320px;
+    background-color: #666;
+     background-image: url('../images/h9.jpg');
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+.sustain .card .img-box3{
+    height: 320px;
+    background-color: #666;
+     background-image: url('../images/h10.jpg');
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+.sustain .card .img-box4{
+    height: 320px;
+    background-color: #666;
+     background-image: url('../images/h8.jpg');
+    object-fit: cover;
+    margin-bottom: 20px;
+}
